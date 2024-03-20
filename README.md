@@ -5,7 +5,7 @@
 * [Objective](#Objective)
 * [Impact of project](#Impact-of-project)
 * [Methods](#Methods)
-* [DataFrame appearance)(#DataFrame-appearance)
+* [DataFrame appearance](#DataFrame-appearance)
 * [Results](#Results)
 * [Discussion](#Discussion)
 * [Limitations](#Limitations)
