@@ -52,7 +52,7 @@ The objective of this project was to understand what makes a song popular in Ire
 
 ## Limitations
 * Spotify discontinued their 'Top Hits of...' public playlist series in 2019. Data from the 'Top tracks of 2020' and 'Top tracks of 2023' were used for their respective years. I opted not to include data for 2021 and 2022 as Spotify has not provided top track playlists for those years.
-* An unforunate limitation of Spotify's web API is that it won't provide data for the stream count of a song. The closest metric is 'Popularity', but that is probably greatly influenced by streams in recent days/weeks.
+* An unfortunate limitation of Spotify's web API is that it won't provide data for the stream count of a song. The closest metric is 'Popularity', but that is probably greatly influenced by streams in recent days/weeks.
 * Many of Spotify's audio features are arguably unquantifiable (e.g. valence, danceability). As such, I preferred to interpret less abstract metrics such as duration and tempo.
 
 ## Python Scripts
