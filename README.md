@@ -10,6 +10,7 @@
 * [Discussion](#Discussion)
 * [Limitations](#Limitations)
 * [Python Scripts](#Python-Scripts)
+* [Data availability](#Data-availability)
 * [Looker Studio Dashboard](#Looker-Studio-Dashboard)
 
 
@@ -27,9 +28,9 @@ The objective of this project was to understand what makes a song popular in Ire
 
 ## Methods
 * Data is scraped everyday from the 'Top-50 Ireland' public playlist using [SpotiPy](https://spotipy.readthedocs.io/en/2.22.1/), a Python library for the Spotify Web API.
-* Once the data is scraped and cleaned, it is stored in Google Big Query and visualised in Google Looker Studio, ensuring that the entire project is cloud-based.
-* Data was also scraped from yearly Spotify public playlists of the series 'Top Hits of...', ranging from 2000 to 2023, cleaned, stored in Google Big Query, and visualised in Google Looker Studio.
-* An interactive dashboard in Looker Studio compares the top tracks of present-day Irish listeners to top tracks of the 21st century in terms of Top songs, Audio features, Top artists, and Top genres.
+* Data was also scraped from yearly Spotify public playlists of the series 'Top Hits of...', ranging from 2000 to 2023, for comparing with today's live data.
+* Clean data is transferred from temporary instances in Google Colab to permanent storage in Big Query.
+* An interactive dashboard in Looker Studio takes the Big Query data as input and visualises the comparison between the top tracks of present-day Irish listeners to top tracks of the 21st century in terms of Top songs, Audio features, Top artists, and Top genres.
 ### Playlist_to_df function
 * My [playlist_to_df](https://github.com/columose/Spotify-API/blob/2e8fc433d7c0dc00a598fb1a867ed7e03bf6d87a/functions.ipynb) custom function uses SpotiPy to:
   1. Request data from the given playlist.
@@ -59,6 +60,9 @@ The objective of this project was to understand what makes a song popular in Ire
 
 ## Python Scripts
 All of the processing scripts for this project can be retrieved from the repository. Click on the 'Open in Colab' icon for better legibility, as each notebook cell becomes condensed when copying from Google Colab to Github.
+
+## Data availability
+Feel free to reach out if you would like access to the data on BigQuery.
 
 ## Looker Studio dashboard
 The main findings are summarised using an [interactive dashboard](https://lookerstudio.google.com/reporting/89c6378a-f65c-40d0-b712-72041bbcd563) in Looker Studio.
