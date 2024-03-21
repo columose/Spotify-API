@@ -42,7 +42,6 @@ The objective of this project was to understand what makes a song popular in Ire
 
 ## Results
 * The project scrapes daily Irish top chart data and compares with Global yearly top chart data using an interactive dashboard in Looker Studio.
-![Image of dashboard](https://github.com/columose/Spotify-API/blob/c3e0b0f03f58187a60d9bc174cfdd46607e05ded/Images/Spotify%20API%20dashboard.jpg)
 ![Image of dashboard](https://github.com/columose/Spotify-API/blob/e21aa0ddf9e8cc5d04097b99a84939ac095d6edf/Images/Spotify%20API%20dashboard.png)
 * It is evident that Irish listener's are following global trends in preferring songs with shorter durations and higher tempos to the average of the 21st century.
 * Present-day Irish listeners still love music from historic Irish artists such as *The Cranberries*.
@@ -54,7 +53,7 @@ The objective of this project was to understand what makes a song popular in Ire
 * The findings of this project can be applied by music industry professionals. As was mentioned in the impact section, record labels could encourage their artists to produce songs that fit the taste of present-day listeners with shorter song durations and higher tempos.
 
 ## Limitations
-* Spotify discontinued their 'Top Hits of...' public playlist series in 2019. Data from the 'Top tracks of 2020' and 'Top tracks of 2023' were used for their respective years. I opted not to include data for 2021 and 2022 as Spotify has not provided top track playlists for those years.
+* Spotify discontinued their 'Top Hits of...' public playlist series in 2019. Data from the 'Top tracks of 2020' and 'Top tracks of 2023' were used for their respective years. I opted not to include data for 2021 and 2022 as Spotify has not provided top track playlists for those years. I used linear interpolation to fill in the gaps for the time-series figure, but this is purely for aesthetics and doesn't effect the calculation of metrics.
 * An unfortunate limitation of Spotify's web API is that it won't provide data for the stream count of a song. The closest metric is 'Popularity', but that is probably greatly influenced by streams in recent days/weeks.
 * Many of Spotify's audio features are arguably unquantifiable (e.g. valence, danceability). As such, I preferred to interpret less abstract metrics such as duration and tempo.
 
