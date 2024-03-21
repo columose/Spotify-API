@@ -43,6 +43,7 @@ The objective of this project was to understand what makes a song popular in Ire
 ## Results
 * The project scrapes daily Irish top chart data and compares with Global yearly top chart data using an interactive dashboard in Looker Studio.
 ![Image of dashboard](https://github.com/columose/Spotify-API/blob/c3e0b0f03f58187a60d9bc174cfdd46607e05ded/Images/Spotify%20API%20dashboard.jpg)
+![Image of dashboard](https://github.com/columose/Spotify-API/blob/e21aa0ddf9e8cc5d04097b99a84939ac095d6edf/Images/Spotify%20API%20dashboard.png)
 * It is evident that Irish listener's are following global trends in preferring songs with shorter durations and higher tempos to the average of the 21st century.
 * Present-day Irish listeners still love music from historic Irish artists such as *The Cranberries*.
 * Perhaps ***the most striking finding*** is that the duration of top tracks has been consistently declining, with the mean duration of present-day top tracks being 47 seconds shorter than those of 2000.
