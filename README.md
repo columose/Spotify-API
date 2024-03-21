@@ -25,6 +25,7 @@ The objective of this project was to understand what makes a song popular in Ire
 * This project provides an innovative pipeline for coupling Spotify's Web API to scrape daily data with Google Cloud's services for cloud computing, storage and visualisation.
 * The results of this project are informative for those working in the music industry such as musicians, record labels, or radio music selectors.
   - For example, record labels could notice trends in the audio features of popular music today, such as a listener's preference for shorter track duration and higher     tempo. Conseqeuently, record labels could encourage their artists to produce songs which fit the present-day listener's preferences to ensure success with songs       and albums.
+* The ***playlist_to_df*** function will easily enable Web API users to access the key features of songs in their personal playlists.
 
 ## Methods
 * Data is scraped everyday from the 'Top-50 Ireland' public playlist using [SpotiPy](https://spotipy.readthedocs.io/en/2.22.1/), a Python library for the Spotify Web API.
@@ -36,7 +37,7 @@ The objective of this project was to understand what makes a song popular in Ire
   1. Request data from the given playlist.
   2. Perform a batch request to obtain the genres of the artists in the playlist.
   3. Perform a batch request to obtain the audio features of the tracks in the playlist.
-* The function has a limit of extracting 100 songs from Spotify API to ensure that the rate limit isn't passed for requests.
+* The function has been optimised to work for both public and private playlists of all sizes. However, the function has been limited to extracting 100 songs from Spotify API to ensure that the rate limit isn't passed for requests. 
 
 ## DataFrame appearance
 ![Output of df_to_playlist function](https://github.com/columose/Spotify-API/blob/92cbf2579f171d6518156786152c45d29e91fe8c/Images/Spotify_DF.png)
