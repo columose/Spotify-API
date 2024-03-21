@@ -25,7 +25,7 @@ The objective of this project was to understand what makes a song popular in Ire
 * This project provides an innovative pipeline for coupling Spotify's Web API to scrape daily data with Google Cloud's services for cloud computing, storage and visualisation.
 * The results of this project are informative for those working in the music industry such as musicians, record labels, or radio music selectors.
   - For example, record labels could notice trends in the audio features of popular music today, such as a listener's preference for shorter track duration and higher     tempo. Conseqeuently, record labels could encourage their artists to produce songs which fit the present-day listener's preferences to ensure success with songs       and albums.
-* The [***playlist_to_df***](https://github.com/columose/Spotify-API/blob/2e8fc433d7c0dc00a598fb1a867ed7e03bf6d87a/functions.ipynb) function will easily enable Web API users to access the key features of songs in their personal playlists.
+* The [playlist_to_df](https://github.com/columose/Spotify-API/blob/2e8fc433d7c0dc00a598fb1a867ed7e03bf6d87a/functions.ipynb) function will easily enable Web API users to access the key features of songs in their personal playlists.
 
 ## Methods
 * Data is scraped everyday from the 'Top-50 Ireland' public playlist using [SpotiPy](https://spotipy.readthedocs.io/en/2.22.1/), a Python library for the Spotify Web API.
