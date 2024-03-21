@@ -42,7 +42,7 @@ The objective of this project was to understand what makes a song popular in Ire
 ![Output of df_to_playlist function](https://github.com/columose/Spotify-API/blob/92cbf2579f171d6518156786152c45d29e91fe8c/Images/Spotify_DF.png)
 
 ## Results
-* The project scrapes daily Irish top chart data and compares with Global yearly top chart data using an interactive dashboard in Looker Studio.
+* The project scrapes daily Irish top chart data and compares with Global yearly top chart data using an [interactive dashboard](https://lookerstudio.google.com/reporting/89c6378a-f65c-40d0-b712-72041bbcd563) in Looker Studio.
 ![Image of dashboard](https://github.com/columose/Spotify-API/blob/e21aa0ddf9e8cc5d04097b99a84939ac095d6edf/Images/Spotify%20API%20dashboard.png)
 * It is evident that Irish listener's are following global trends in preferring songs with shorter durations and higher tempos to the average of the 21st century.
 * Present-day Irish listeners still love music from historic Irish artists such as *The Cranberries*.
