@@ -1,4 +1,4 @@
-# Spotify-API Project comparing Irish daily top charts with global yearly top charts
+# Cloud-based web-scraping project using Spotify API
 
 ## Table of Contents
 * [Summary](#Summary)
