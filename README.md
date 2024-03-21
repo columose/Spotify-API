@@ -15,7 +15,7 @@
 
 ## Summary
 * This project scrapes data ***every day*** from the Spotify 'Top-50 Ireland' daily public playlist to compare with data that was scraped from the global annual playlist series 'Top Hits of (selected year)', ranging from 2000 - 2023.
-* Data is scraped and cleaned using Python scripts in Google Colab environment, stored in Google Big Query, and visualised in Google Looker Studio, meaning that ***the entire project is cloud-based***.
+* Data is scraped and cleaned using ***Python scripts*** in Google Colab environment, stored in Google Big Query, and visualised in Google Looker Studio, meaning that ***the entire project is cloud-based***.
 
 ## Objective
 The objective of this project was to understand what makes a song popular in Ireland ***today***, and how that compares to global trends of the 21st century.
