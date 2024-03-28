@@ -1,4 +1,4 @@
-# Cloud-based web-scraping project using Spotify API
+# Cloud-based web-scraping project using real-time data from Spotify API
 
 ## Table of Contents
 * [Summary](#Summary)
@@ -28,7 +28,7 @@ The objective of this project was to understand what makes a song popular in Ire
 * The [playlist_to_df](https://github.com/columose/Spotify-API/blob/2e8fc433d7c0dc00a598fb1a867ed7e03bf6d87a/functions.ipynb) function will easily enable Web API users to access the key features of songs in their personal playlists.
 
 ## Methods
-* Data is scraped everyday from the 'Top-50 Ireland' public playlist using [SpotiPy](https://spotipy.readthedocs.io/en/2.22.1/), a Python library for the Spotify Web API.
+* Data is scraped in real-time from the 'Top-50 Ireland' public playlist using [SpotiPy](https://spotipy.readthedocs.io/en/2.22.1/), a Python library for the Spotify Web API.
 * Data was also scraped from yearly Spotify public playlists of the series 'Top Hits of...', ranging from 2000 to 2023, for comparing with today's live data.
 * Clean data is transferred from temporary instances in Google Colab to permanent storage in Big Query.
 * An interactive dashboard in Looker Studio takes the Big Query data as input and visualises the comparison between the top tracks of present-day Irish listeners to top tracks of the 21st century in terms of Top songs, Audio features, Top artists, and Top genres.
